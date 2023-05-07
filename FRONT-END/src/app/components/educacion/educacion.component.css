@@ -1,0 +1,15 @@
+h2{
+    color:white;
+}
+#modulo{
+    margin-top: 2rem;
+}
+.card{
+    margin-top: 1%;
+    
+}
+#edu{
+    display: flex;
+    justify-content: center;
+
+}

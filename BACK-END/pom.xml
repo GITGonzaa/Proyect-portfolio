@@ -8,11 +8,11 @@
 		<version>3.0.6</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>com.portfolio</groupId>
-	<artifactId>RGS</artifactId>
+	<groupId>com.portfolitorgs</groupId>
+	<artifactId>rgs</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>RGS</name>
-	<description>Portfolio de RGS</description>
+	<name>rgs</name>
+	<description>Portfolio wed de rgs</description>
 	<properties>
 		<java.version>17</java.version>
 	</properties>
@@ -35,6 +35,11 @@
 			<artifactId>spring-boot-devtools</artifactId>
 			<scope>runtime</scope>
 			<optional>true</optional>
+		</dependency>
+		<dependency>
+			<groupId>com.h2database</groupId>
+			<artifactId>h2</artifactId>
+			<scope>runtime</scope>
 		</dependency>
 		<dependency>
 			<groupId>com.mysql</groupId>
