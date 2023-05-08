@@ -25,11 +25,11 @@
               "src/assets"
             ],
             "styles": [
-              "FRONT-END/node_modules/bootstrap/dist/css/bootstrap.css",
+              "C:/Users/Gonza/Desktop/Programacion/PROYECTO INTEGRADOR/Proyect-portfolio/FRONT-END/node_modules/bootstrap/dist/css/bootstrap.css",
               "src/styles.css"
             ],
             "scripts": [
-              "FRONT-END/node_modules/bootstrap/dist/js/bootstrap.js"
+              "C:/Users/Gonza/Desktop/Programacion/PROYECTO INTEGRADOR/Proyect-portfolio/FRONT-END/node_modules/bootstrap/dist/js/bootstrap.js"
             ]
           },
           "configurations": {

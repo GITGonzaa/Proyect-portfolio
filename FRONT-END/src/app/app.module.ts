@@ -21,6 +21,9 @@ import { SkillsComponent } from './components/skills/skills.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
 import { HeaderComponent } from './components/header/header.component';
 import { CuerpoComponent } from './components/cuerpo/cuerpo.component';
+import { HttpClientModule } from '@angular/common/http';
+import { HomeComponent } from './components/home/home.component';
+import { LoginComponent } from './components/modals/login/login.component';
 
 @NgModule({
   declarations: [
@@ -41,12 +44,15 @@ import { CuerpoComponent } from './components/cuerpo/cuerpo.component';
     ProyectosComponent,
     SkillsComponent,
     HeaderComponent,
-    CuerpoComponent
+    CuerpoComponent,
+    HomeComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
     NgCircleProgressModule.forRoot({}),
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
